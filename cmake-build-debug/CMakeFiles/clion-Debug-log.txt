@@ -1,0 +1,25 @@
+/run/current-system/sw/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/run/current-system/sw/bin/gcc -DCMAKE_CXX_COMPILER=/run/current-system/sw/bin/gcc -G "CodeBlocks - Unix Makefiles" -S /home/tei/projects/cpp/cppexercise -B /home/tei/projects/cpp/cppexercise/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /run/current-system/sw/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /run/current-system/sw/bin/gcc - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tei/projects/cpp/cppexercise/cmake-build-debug

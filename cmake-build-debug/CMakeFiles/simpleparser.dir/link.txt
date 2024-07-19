@@ -1,0 +1,1 @@
+/nix/store/mpm3i0sbqc9svfch6a17179fs64dz2kv-gcc-wrapper-13.3.0/bin/g++ -O2 -g -DNDEBUG CMakeFiles/simpleparser.dir/calculate.cpp.o -o simpleparser

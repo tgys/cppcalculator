@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simpleparser"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tei/projects/cpp/cppexercise/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleparser">
+				<Option output="/home/tei/projects/cpp/cppexercise/cmake-build-debug/simpleparser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/cppexercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/km7snzcpvhhxxzb7s7k6f2mygm4jz11s-gdb-14.2/include"/>
+					<Add directory="/nix/store/w7srm9d7jiyl7gvbkwip1nx3l1qb4y0b-gtest-1.14.0-dev/include"/>
+					<Add directory="/nix/store/r7f301cdb53hbsihbmivfq0zwz2vm3pr-spdlog-1.13.0-dev/include"/>
+					<Add directory="/nix/store/fr5vsxz2py75m42kj1r3fqgc2ll7pjwa-fmt-10.2.1-dev/include"/>
+					<Add directory="/nix/store/kgnksiq9s7y4gc8xxnzxxd9k3gl6g99a-abseil-cpp-20240116.2/include"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include/c++/13.3.0/"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include/c++/13.3.0//x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include/c++/13.3.0//backward"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include-fixed"/>
+					<Add directory="/nix/store/09lv9r3dx6ql0lzpdv8w2b1r6b358481-glibc-2.39-52-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleparser"/>
+					<CompileFile command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleparser/fast">
+				<Option output="/home/tei/projects/cpp/cppexercise/cmake-build-debug/simpleparser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tei/projects/cpp/cppexercise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/nix/store/km7snzcpvhhxxzb7s7k6f2mygm4jz11s-gdb-14.2/include"/>
+					<Add directory="/nix/store/w7srm9d7jiyl7gvbkwip1nx3l1qb4y0b-gtest-1.14.0-dev/include"/>
+					<Add directory="/nix/store/r7f301cdb53hbsihbmivfq0zwz2vm3pr-spdlog-1.13.0-dev/include"/>
+					<Add directory="/nix/store/fr5vsxz2py75m42kj1r3fqgc2ll7pjwa-fmt-10.2.1-dev/include"/>
+					<Add directory="/nix/store/kgnksiq9s7y4gc8xxnzxxd9k3gl6g99a-abseil-cpp-20240116.2/include"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include/c++/13.3.0/"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include/c++/13.3.0//x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include/c++/13.3.0//backward"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/include"/>
+					<Add directory="/nix/store/3s3rjkl3mx05wp0lmxgwkaqhbz9sy6kk-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include-fixed"/>
+					<Add directory="/nix/store/09lv9r3dx6ql0lzpdv8w2b1r6b358481-glibc-2.39-52-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleparser/fast"/>
+					<CompileFile command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tei/projects/cpp/cppexercise/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tei/projects/cpp/cppexercise/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/18z454gyz0wpb641rw6gpqk0vi4wbxy6-gnumake-4.4.1/bin/make -j12 -f &quot;/home/tei/projects/cpp/cppexercise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tei/projects/cpp/cppexercise/main.cpp">
+			<Option target="simpleparser"/>
+		</Unit>
+		<Unit filename="/home/tei/projects/cpp/cppexercise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

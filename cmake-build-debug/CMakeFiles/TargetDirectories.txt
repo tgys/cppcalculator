@@ -1,0 +1,3 @@
+/home/tei/projects/cpp/cppexercise/cmake-build-debug/CMakeFiles/simpleparser.dir
+/home/tei/projects/cpp/cppexercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tei/projects/cpp/cppexercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir

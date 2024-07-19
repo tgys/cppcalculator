@@ -1,0 +1,132 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/nix/store/km7snzcpvhhxxzb7s7k6f2mygm4jz11s-gdb-14.2/include",
+						"/nix/store/w7srm9d7jiyl7gvbkwip1nx3l1qb4y0b-gtest-1.14.0-dev/include",
+						"/nix/store/r7f301cdb53hbsihbmivfq0zwz2vm3pr-spdlog-1.13.0-dev/include",
+						"/nix/store/fr5vsxz2py75m42kj1r3fqgc2ll7pjwa-fmt-10.2.1-dev/include",
+						"/nix/store/kgnksiq9s7y4gc8xxnzxxd9k3gl6g99a-abseil-cpp-20240116.2/include",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/include",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include-fixed",
+						"/nix/store/4vgk1rlzdqjnpjicb5qcxjcd4spi7wyw-glibc-2.39-52-dev/include"
+					],
+					"linkDirectories" : 
+					[
+						"/nix/store/km7snzcpvhhxxzb7s7k6f2mygm4jz11s-gdb-14.2/lib",
+						"/nix/store/mc7gqhl5jazmmq8ch5kx6fzwjn8ixjz6-gtest-1.14.0/lib",
+						"/nix/store/0dbmgkb5pmsm178dfbyvgrdmirinib9p-fmt-10.2.1/lib",
+						"/nix/store/1hclbi4yhf7yx6hdfikq01rnxfwzvsjg-spdlog-1.13.0/lib",
+						"/nix/store/kgnksiq9s7y4gc8xxnzxxd9k3gl6g99a-abseil-cpp-20240116.2/lib",
+						"/nix/store/dbwp0scbb0rk78m636sb7cvycz8xzgyh-glibc-2.39-52/lib",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0",
+						"/nix/store/bn7pnigb0f8874m6riiw6dngsmdyic1g-gcc-13.3.0-lib/lib",
+						"/nix/store/mpm3i0sbqc9svfch6a17179fs64dz2kv-gcc-wrapper-13.3.0/bin",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib64",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/nix/store/mpm3i0sbqc9svfch6a17179fs64dz2kv-gcc-wrapper-13.3.0/bin/gcc",
+				"version" : "13.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/nix/store/km7snzcpvhhxxzb7s7k6f2mygm4jz11s-gdb-14.2/include",
+						"/nix/store/w7srm9d7jiyl7gvbkwip1nx3l1qb4y0b-gtest-1.14.0-dev/include",
+						"/nix/store/r7f301cdb53hbsihbmivfq0zwz2vm3pr-spdlog-1.13.0-dev/include",
+						"/nix/store/fr5vsxz2py75m42kj1r3fqgc2ll7pjwa-fmt-10.2.1-dev/include",
+						"/nix/store/kgnksiq9s7y4gc8xxnzxxd9k3gl6g99a-abseil-cpp-20240116.2/include",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/include/c++/13.3.0",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/include/c++/13.3.0/x86_64-unknown-linux-gnu",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/include/c++/13.3.0/backward",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/include",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0/include-fixed",
+						"/nix/store/4vgk1rlzdqjnpjicb5qcxjcd4spi7wyw-glibc-2.39-52-dev/include"
+					],
+					"linkDirectories" : 
+					[
+						"/nix/store/km7snzcpvhhxxzb7s7k6f2mygm4jz11s-gdb-14.2/lib",
+						"/nix/store/mc7gqhl5jazmmq8ch5kx6fzwjn8ixjz6-gtest-1.14.0/lib",
+						"/nix/store/0dbmgkb5pmsm178dfbyvgrdmirinib9p-fmt-10.2.1/lib",
+						"/nix/store/1hclbi4yhf7yx6hdfikq01rnxfwzvsjg-spdlog-1.13.0/lib",
+						"/nix/store/kgnksiq9s7y4gc8xxnzxxd9k3gl6g99a-abseil-cpp-20240116.2/lib",
+						"/nix/store/dbwp0scbb0rk78m636sb7cvycz8xzgyh-glibc-2.39-52/lib",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib/gcc/x86_64-unknown-linux-gnu/13.3.0",
+						"/nix/store/bn7pnigb0f8874m6riiw6dngsmdyic1g-gcc-13.3.0-lib/lib",
+						"/nix/store/mpm3i0sbqc9svfch6a17179fs64dz2kv-gcc-wrapper-13.3.0/bin",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib64",
+						"/nix/store/zc0nsv23pakbafngjy32kvhfzb16as43-gcc-13.3.0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/nix/store/mpm3i0sbqc9svfch6a17179fs64dz2kv-gcc-wrapper-13.3.0/bin/g++",
+				"version" : "13.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
